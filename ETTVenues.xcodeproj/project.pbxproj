@@ -12,8 +12,11 @@
 		11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */; };
 		11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
 		11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
-		11232FB81E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */; };
-		11232FB91E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */; };
+		11232FBC1E79E7DF00E67D99 /* ETTLocationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBB1E79E7DF00E67D99 /* ETTLocationObserver.m */; };
+		11232FC01E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */; };
+		11232FC11E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */; };
+		11232FC51E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */; };
+		11232FC61E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */; };
 		1128EE431E79D12300C14B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE421E79D12300C14B4C /* main.m */; };
 		1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE451E79D12300C14B4C /* ETTAppDelegate.m */; };
 		1128EE4F1E79D12300C14B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128EE4D1E79D12300C14B4C /* Main.storyboard */; };
@@ -43,8 +46,12 @@
 		11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotoViewController.m; sourceTree = "<group>"; };
 		11232FB11E79DE7E00E67D99 /* ETTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTLocationManager.h; sourceTree = "<group>"; };
 		11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTLocationManager.m; sourceTree = "<group>"; };
-		11232FB61E79DEDC00E67D99 /* ETTVenuesRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVenuesRequester.h; sourceTree = "<group>"; };
-		11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVenuesRequester.m; sourceTree = "<group>"; };
+		11232FBA1E79E7DF00E67D99 /* ETTLocationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTLocationObserver.h; sourceTree = "<group>"; };
+		11232FBB1E79E7DF00E67D99 /* ETTLocationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTLocationObserver.m; sourceTree = "<group>"; };
+		11232FBE1E79E81E00E67D99 /* ETTVenuesRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVenuesRequester.h; sourceTree = "<group>"; };
+		11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVenuesRequester.m; sourceTree = "<group>"; };
+		11232FC31E79F47D00E67D99 /* ETTSettingsStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTSettingsStorage.h; sourceTree = "<group>"; };
+		11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTSettingsStorage.m; sourceTree = "<group>"; };
 		1128EE3E1E79D12300C14B4C /* ETTVenues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETTVenues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1128EE421E79D12300C14B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1128EE441E79D12300C14B4C /* ETTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTAppDelegate.h; sourceTree = "<group>"; };
@@ -108,7 +115,7 @@
 		11232FAF1E79DE5A00E67D99 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				11232FB51E79DEC000E67D99 /* ETTVenuesRequester */,
+				11232FBD1E79E81E00E67D99 /* ETTVenuesRequester */,
 				11232FB01E79DE5A00E67D99 /* ETTLocationManager */,
 			);
 			path = Managers;
@@ -117,20 +124,30 @@
 		11232FB01E79DE5A00E67D99 /* ETTLocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				11232FBA1E79E7DF00E67D99 /* ETTLocationObserver.h */,
+				11232FBB1E79E7DF00E67D99 /* ETTLocationObserver.m */,
 				11232FB11E79DE7E00E67D99 /* ETTLocationManager.h */,
 				11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */,
 			);
 			path = ETTLocationManager;
 			sourceTree = "<group>";
 		};
-		11232FB51E79DEC000E67D99 /* ETTVenuesRequester */ = {
+		11232FBD1E79E81E00E67D99 /* ETTVenuesRequester */ = {
 			isa = PBXGroup;
 			children = (
-				11232FB61E79DEDC00E67D99 /* ETTVenuesRequester.h */,
-				11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */,
+				11232FBE1E79E81E00E67D99 /* ETTVenuesRequester.h */,
+				11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */,
 			);
-			name = ETTVenuesRequester;
-			path = ETTLocationManager/ETTVenuesRequester;
+			path = ETTVenuesRequester;
+			sourceTree = "<group>";
+		};
+		11232FC21E79F45F00E67D99 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				11232FC31E79F47D00E67D99 /* ETTSettingsStorage.h */,
+				11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		1128EE351E79D12200C14B4C = {
@@ -158,6 +175,7 @@
 			children = (
 				11232FA41E79D72D00E67D99 /* UI */,
 				11232FAF1E79DE5A00E67D99 /* Managers */,
+				11232FC21E79F45F00E67D99 /* Data */,
 				1128EE441E79D12300C14B4C /* ETTAppDelegate.h */,
 				1128EE451E79D12300C14B4C /* ETTAppDelegate.m */,
 				1128EE4D1E79D12300C14B4C /* Main.storyboard */,
@@ -411,10 +429,12 @@
 				1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */,
 				11232FAA1E79D72D00E67D99 /* ETTPhotosListViewController.m in Sources */,
 				11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
+				11232FC51E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */,
 				11232FAB1E79D72D00E67D99 /* ETTSettingsViewController.m in Sources */,
 				11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */,
-				11232FB81E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */,
+				11232FBC1E79E7DF00E67D99 /* ETTLocationObserver.m in Sources */,
 				1128EE431E79D12300C14B4C /* main.m in Sources */,
+				11232FC01E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +444,8 @@
 			files = (
 				11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
 				1128EE5F1E79D12300C14B4C /* ETTVenuesTests.m in Sources */,
-				11232FB91E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */,
+				11232FC61E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */,
+				11232FC11E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

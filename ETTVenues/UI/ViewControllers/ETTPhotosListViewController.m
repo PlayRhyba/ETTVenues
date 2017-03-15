@@ -8,6 +8,7 @@
 
 
 #import "ETTPhotosListViewController.h"
+#import "ETTLocationManager.h"
 
 
 @interface ETTPhotosListViewController ()
@@ -17,8 +18,34 @@
 
 @implementation ETTPhotosListViewController
 
+
+//MARK: Lifecycle
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[ETTLocationManager sharedInstance]addObservationBlock:^(CLLocation *location, NSError *error) {
+        if (location) {
+            
+            
+            NSLog(@"LOCATION: %@", location);
+            
+            
+        }
+    } withIdentifier:NSStringFromClass([self class]) queue:dispatch_get_main_queue()];
+}
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[ETTLocationManager sharedInstance]startObserving];
+}
+
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[ETTLocationManager sharedInstance]stopObserving];
 }
 
 
@@ -30,6 +57,5 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-
 
 @end
