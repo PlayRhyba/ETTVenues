@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11232FAA1E79D72D00E67D99 /* ETTPhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */; };
+		11232FAB1E79D72D00E67D99 /* ETTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */; };
+		11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */; };
+		11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
+		11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
+		11232FB81E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */; };
+		11232FB91E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */; };
+		1128EE431E79D12300C14B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE421E79D12300C14B4C /* main.m */; };
+		1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE451E79D12300C14B4C /* ETTAppDelegate.m */; };
+		1128EE4F1E79D12300C14B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128EE4D1E79D12300C14B4C /* Main.storyboard */; };
+		1128EE511E79D12300C14B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1128EE501E79D12300C14B4C /* Assets.xcassets */; };
+		1128EE541E79D12300C14B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128EE521E79D12300C14B4C /* LaunchScreen.storyboard */; };
+		1128EE5F1E79D12300C14B4C /* ETTVenuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE5E1E79D12300C14B4C /* ETTVenuesTests.m */; };
+		34F0F12CF949ACB16A7B09CF /* libPods-ETTVenuesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */; };
+		98B8626583A46CE572FF83F9 /* libPods-ETTVenues.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F7B2E454D7476E80778E1A /* libPods-ETTVenues.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1128EE5B1E79D12300C14B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1128EE361E79D12200C14B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1128EE3D1E79D12200C14B4C;
+			remoteInfo = ETTVenues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11232FA61E79D72D00E67D99 /* ETTPhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotosListViewController.h; sourceTree = "<group>"; };
+		11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotosListViewController.m; sourceTree = "<group>"; };
+		11232FA81E79D72D00E67D99 /* ETTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTSettingsViewController.h; sourceTree = "<group>"; };
+		11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTSettingsViewController.m; sourceTree = "<group>"; };
+		11232FAC1E79D78E00E67D99 /* ETTPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotoViewController.h; sourceTree = "<group>"; };
+		11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotoViewController.m; sourceTree = "<group>"; };
+		11232FB11E79DE7E00E67D99 /* ETTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTLocationManager.h; sourceTree = "<group>"; };
+		11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTLocationManager.m; sourceTree = "<group>"; };
+		11232FB61E79DEDC00E67D99 /* ETTVenuesRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVenuesRequester.h; sourceTree = "<group>"; };
+		11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVenuesRequester.m; sourceTree = "<group>"; };
+		1128EE3E1E79D12300C14B4C /* ETTVenues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETTVenues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128EE421E79D12300C14B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1128EE441E79D12300C14B4C /* ETTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTAppDelegate.h; sourceTree = "<group>"; };
+		1128EE451E79D12300C14B4C /* ETTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETTAppDelegate.m; sourceTree = "<group>"; };
+		1128EE4E1E79D12300C14B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1128EE501E79D12300C14B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1128EE531E79D12300C14B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1128EE551E79D12300C14B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1128EE5A1E79D12300C14B4C /* ETTVenuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETTVenuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128EE5E1E79D12300C14B4C /* ETTVenuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETTVenuesTests.m; sourceTree = "<group>"; };
+		1128EE601E79D12300C14B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCFEBAE257F7403FDF4BB11 /* Pods-ETTVenues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenues/Pods-ETTVenues.debug.xcconfig"; sourceTree = "<group>"; };
+		678B47511DDF3D47D5B3FE7C /* Pods-ETTVenues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenues.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenues/Pods-ETTVenues.release.xcconfig"; sourceTree = "<group>"; };
+		70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ETTVenuesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AFE1B481FEE8B451818282 /* Pods-ETTVenuesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenuesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98F7B2E454D7476E80778E1A /* libPods-ETTVenues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ETTVenues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5CA63574A5ADA3070613DE /* Pods-ETTVenuesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenuesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1128EE3B1E79D12200C14B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8626583A46CE572FF83F9 /* libPods-ETTVenues.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128EE571E79D12300C14B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F0F12CF949ACB16A7B09CF /* libPods-ETTVenuesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11232FA41E79D72D00E67D99 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				11232FA51E79D72D00E67D99 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		11232FA51E79D72D00E67D99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11232FA61E79D72D00E67D99 /* ETTPhotosListViewController.h */,
+				11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */,
+				11232FA81E79D72D00E67D99 /* ETTSettingsViewController.h */,
+				11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */,
+				11232FAC1E79D78E00E67D99 /* ETTPhotoViewController.h */,
+				11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11232FAF1E79DE5A00E67D99 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				11232FB51E79DEC000E67D99 /* ETTVenuesRequester */,
+				11232FB01E79DE5A00E67D99 /* ETTLocationManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		11232FB01E79DE5A00E67D99 /* ETTLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				11232FB11E79DE7E00E67D99 /* ETTLocationManager.h */,
+				11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */,
+			);
+			path = ETTLocationManager;
+			sourceTree = "<group>";
+		};
+		11232FB51E79DEC000E67D99 /* ETTVenuesRequester */ = {
+			isa = PBXGroup;
+			children = (
+				11232FB61E79DEDC00E67D99 /* ETTVenuesRequester.h */,
+				11232FB71E79DEDC00E67D99 /* ETTVenuesRequester.m */,
+			);
+			name = ETTVenuesRequester;
+			path = ETTLocationManager/ETTVenuesRequester;
+			sourceTree = "<group>";
+		};
+		1128EE351E79D12200C14B4C = {
+			isa = PBXGroup;
+			children = (
+				1128EE401E79D12300C14B4C /* ETTVenues */,
+				1128EE5D1E79D12300C14B4C /* ETTVenuesTests */,
+				1128EE3F1E79D12300C14B4C /* Products */,
+				DD5F09BC39AAD55C165FAF25 /* Pods */,
+				5E11A10C6A72E40469231109 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1128EE3F1E79D12300C14B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1128EE3E1E79D12300C14B4C /* ETTVenues.app */,
+				1128EE5A1E79D12300C14B4C /* ETTVenuesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1128EE401E79D12300C14B4C /* ETTVenues */ = {
+			isa = PBXGroup;
+			children = (
+				11232FA41E79D72D00E67D99 /* UI */,
+				11232FAF1E79DE5A00E67D99 /* Managers */,
+				1128EE441E79D12300C14B4C /* ETTAppDelegate.h */,
+				1128EE451E79D12300C14B4C /* ETTAppDelegate.m */,
+				1128EE4D1E79D12300C14B4C /* Main.storyboard */,
+				1128EE501E79D12300C14B4C /* Assets.xcassets */,
+				1128EE521E79D12300C14B4C /* LaunchScreen.storyboard */,
+				1128EE551E79D12300C14B4C /* Info.plist */,
+				1128EE411E79D12300C14B4C /* Supporting Files */,
+			);
+			path = ETTVenues;
+			sourceTree = "<group>";
+		};
+		1128EE411E79D12300C14B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1128EE421E79D12300C14B4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1128EE5D1E79D12300C14B4C /* ETTVenuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1128EE5E1E79D12300C14B4C /* ETTVenuesTests.m */,
+				1128EE601E79D12300C14B4C /* Info.plist */,
+			);
+			path = ETTVenuesTests;
+			sourceTree = "<group>";
+		};
+		5E11A10C6A72E40469231109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F7B2E454D7476E80778E1A /* libPods-ETTVenues.a */,
+				70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5F09BC39AAD55C165FAF25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCFEBAE257F7403FDF4BB11 /* Pods-ETTVenues.debug.xcconfig */,
+				678B47511DDF3D47D5B3FE7C /* Pods-ETTVenues.release.xcconfig */,
+				72AFE1B481FEE8B451818282 /* Pods-ETTVenuesTests.debug.xcconfig */,
+				FA5CA63574A5ADA3070613DE /* Pods-ETTVenuesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1128EE3D1E79D12200C14B4C /* ETTVenues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1128EE631E79D12300C14B4C /* Build configuration list for PBXNativeTarget "ETTVenues" */;
+			buildPhases = (
+				D27AFF2446FCE0360150217B /* [CP] Check Pods Manifest.lock */,
+				1128EE3A1E79D12200C14B4C /* Sources */,
+				1128EE3B1E79D12200C14B4C /* Frameworks */,
+				1128EE3C1E79D12200C14B4C /* Resources */,
+				A45ED0814E65064CAA531605 /* [CP] Embed Pods Frameworks */,
+				73CF5429E5E992F2258B3E2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETTVenues;
+			productName = ETTVenues;
+			productReference = 1128EE3E1E79D12300C14B4C /* ETTVenues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1128EE591E79D12300C14B4C /* ETTVenuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1128EE661E79D12300C14B4C /* Build configuration list for PBXNativeTarget "ETTVenuesTests" */;
+			buildPhases = (
+				3205D4C1F27E65102F278F58 /* [CP] Check Pods Manifest.lock */,
+				1128EE561E79D12300C14B4C /* Sources */,
+				1128EE571E79D12300C14B4C /* Frameworks */,
+				1128EE581E79D12300C14B4C /* Resources */,
+				5E8793A2D8A51ADBB524229D /* [CP] Embed Pods Frameworks */,
+				810003B56D5E1DF0091326F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1128EE5C1E79D12300C14B4C /* PBXTargetDependency */,
+			);
+			name = ETTVenuesTests;
+			productName = ETTVenuesTests;
+			productReference = 1128EE5A1E79D12300C14B4C /* ETTVenuesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1128EE361E79D12200C14B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ETT;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexander Snegursky";
+				TargetAttributes = {
+					1128EE3D1E79D12200C14B4C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1128EE591E79D12300C14B4C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1128EE3D1E79D12200C14B4C;
+					};
+				};
+			};
+			buildConfigurationList = 1128EE391E79D12200C14B4C /* Build configuration list for PBXProject "ETTVenues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1128EE351E79D12200C14B4C;
+			productRefGroup = 1128EE3F1E79D12300C14B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1128EE3D1E79D12200C14B4C /* ETTVenues */,
+				1128EE591E79D12300C14B4C /* ETTVenuesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1128EE3C1E79D12200C14B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128EE541E79D12300C14B4C /* LaunchScreen.storyboard in Resources */,
+				1128EE511E79D12300C14B4C /* Assets.xcassets in Resources */,
+				1128EE4F1E79D12300C14B4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128EE581E79D12300C14B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3205D4C1F27E65102F278F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8793A2D8A51ADBB524229D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CF5429E5E992F2258B3E2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETTVenues/Pods-ETTVenues-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810003B56D5E1DF0091326F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45ED0814E65064CAA531605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETTVenues/Pods-ETTVenues-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27AFF2446FCE0360150217B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1128EE3A1E79D12200C14B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */,
+				11232FAA1E79D72D00E67D99 /* ETTPhotosListViewController.m in Sources */,
+				11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
+				11232FAB1E79D72D00E67D99 /* ETTSettingsViewController.m in Sources */,
+				11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */,
+				11232FB81E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */,
+				1128EE431E79D12300C14B4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128EE561E79D12300C14B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
+				1128EE5F1E79D12300C14B4C /* ETTVenuesTests.m in Sources */,
+				11232FB91E79DEDC00E67D99 /* ETTVenuesRequester.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1128EE5C1E79D12300C14B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1128EE3D1E79D12200C14B4C /* ETTVenues */;
+			targetProxy = 1128EE5B1E79D12300C14B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1128EE4D1E79D12300C14B4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1128EE4E1E79D12300C14B4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1128EE521E79D12300C14B4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1128EE531E79D12300C14B4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1128EE611E79D12300C14B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1128EE621E79D12300C14B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1128EE641E79D12300C14B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCFEBAE257F7403FDF4BB11 /* Pods-ETTVenues.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETTVenues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1128EE651E79D12300C14B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678B47511DDF3D47D5B3FE7C /* Pods-ETTVenues.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETTVenues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1128EE671E79D12300C14B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AFE1B481FEE8B451818282 /* Pods-ETTVenuesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ETTVenuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETTVenues.app/ETTVenues";
+			};
+			name = Debug;
+		};
+		1128EE681E79D12300C14B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5CA63574A5ADA3070613DE /* Pods-ETTVenuesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ETTVenuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETTVenues.app/ETTVenues";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1128EE391E79D12200C14B4C /* Build configuration list for PBXProject "ETTVenues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128EE611E79D12300C14B4C /* Debug */,
+				1128EE621E79D12300C14B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128EE631E79D12300C14B4C /* Build configuration list for PBXNativeTarget "ETTVenues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128EE641E79D12300C14B4C /* Debug */,
+				1128EE651E79D12300C14B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128EE661E79D12300C14B4C /* Build configuration list for PBXNativeTarget "ETTVenuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128EE671E79D12300C14B4C /* Debug */,
+				1128EE681E79D12300C14B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1128EE361E79D12200C14B4C /* Project object */;
+}
