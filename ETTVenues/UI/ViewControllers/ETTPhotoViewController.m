@@ -7,17 +7,29 @@
 //
 
 #import "ETTPhotoViewController.h"
+#import "UIImageView+Loading.h"
+#import "ETTPhoto.h"
+#import "ETTVenue.h"
 
 
 @interface ETTPhotoViewController ()
+
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
 @end
 
 
 @implementation ETTPhotoViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+
+//MARK: Lifecycle
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    self.navigationItem.title = _photo.venue.name;
+    [_imageView loadImageWithURL:[_photo url]];
 }
 
 @end

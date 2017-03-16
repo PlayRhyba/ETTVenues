@@ -56,7 +56,7 @@
 - (void)invokeWithLocation:(CLLocation *)location
                      error:(NSError *)error {
     dispatch_async(_queue, ^{
-        _actionBlock(location, error);
+        self.actionBlock(location, error);
     });
 }
 

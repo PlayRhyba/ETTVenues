@@ -11,6 +11,9 @@
 #import "ETTLocationObserver.h"
 
 
+static const float kDefaultDistanceFilter = 200.0f;
+
+
 @interface ETTLocationManager () <CLLocationManagerDelegate>
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
@@ -102,6 +105,8 @@
         _locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
         
         [_locationManager requestWhenInUseAuthorization];
+        
+        self.distanceFilter = kDefaultDistanceFilter;
     }
     
     return self;

@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11232FAA1E79D72D00E67D99 /* ETTPhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */; };
 		11232FAB1E79D72D00E67D99 /* ETTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */; };
 		11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FAD1E79D78E00E67D99 /* ETTPhotoViewController.m */; };
 		11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
 		11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */; };
 		11232FBC1E79E7DF00E67D99 /* ETTLocationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBB1E79E7DF00E67D99 /* ETTLocationObserver.m */; };
-		11232FC01E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */; };
-		11232FC11E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */; };
-		11232FC51E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */; };
-		11232FC61E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */; };
 		1128EE431E79D12300C14B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE421E79D12300C14B4C /* main.m */; };
 		1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE451E79D12300C14B4C /* ETTAppDelegate.m */; };
 		1128EE4F1E79D12300C14B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128EE4D1E79D12300C14B4C /* Main.storyboard */; };
@@ -25,6 +20,18 @@
 		1128EE5F1E79D12300C14B4C /* ETTVenuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1128EE5E1E79D12300C14B4C /* ETTVenuesTests.m */; };
 		34F0F12CF949ACB16A7B09CF /* libPods-ETTVenuesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */; };
 		98B8626583A46CE572FF83F9 /* libPods-ETTVenues.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F7B2E454D7476E80778E1A /* libPods-ETTVenues.a */; };
+		C7E281AD1E7AA55800998B9B /* ETTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281AC1E7AA55800998B9B /* ETTPhoto.m */; };
+		C7E281AE1E7AA55800998B9B /* ETTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281AC1E7AA55800998B9B /* ETTPhoto.m */; };
+		C7E281B11E7AAB0300998B9B /* ETTBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B01E7AAB0300998B9B /* ETTBaseObject.m */; };
+		C7E281B21E7AAB0300998B9B /* ETTBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B01E7AAB0300998B9B /* ETTBaseObject.m */; };
+		C7E281B51E7AAE6A00998B9B /* ETTVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B41E7AAE6A00998B9B /* ETTVenue.m */; };
+		C7E281B61E7AAE6A00998B9B /* ETTVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B41E7AAE6A00998B9B /* ETTVenue.m */; };
+		C7E281BA1E7ABF2300998B9B /* ETTRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B91E7ABF2300998B9B /* ETTRequester.m */; };
+		C7E281BB1E7ABF2300998B9B /* ETTRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281B91E7ABF2300998B9B /* ETTRequester.m */; };
+		C7E281C01E7AC8EE00998B9B /* NSError+Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281BF1E7AC8EE00998B9B /* NSError+Errors.m */; };
+		C7E281C51E7AECE400998B9B /* ETTPhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281C41E7AECE400998B9B /* ETTPhotosListViewController.m */; };
+		C7E281C81E7AEDB800998B9B /* ETTPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281C71E7AEDB800998B9B /* ETTPhotoCell.m */; };
+		C7E281CB1E7AFBE900998B9B /* UIImageView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E281CA1E7AFBE900998B9B /* UIImageView+Loading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11232FA61E79D72D00E67D99 /* ETTPhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotosListViewController.h; sourceTree = "<group>"; };
-		11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotosListViewController.m; sourceTree = "<group>"; };
 		11232FA81E79D72D00E67D99 /* ETTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTSettingsViewController.h; sourceTree = "<group>"; };
 		11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTSettingsViewController.m; sourceTree = "<group>"; };
 		11232FAC1E79D78E00E67D99 /* ETTPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotoViewController.h; sourceTree = "<group>"; };
@@ -48,10 +53,6 @@
 		11232FB21E79DE7E00E67D99 /* ETTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTLocationManager.m; sourceTree = "<group>"; };
 		11232FBA1E79E7DF00E67D99 /* ETTLocationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTLocationObserver.h; sourceTree = "<group>"; };
 		11232FBB1E79E7DF00E67D99 /* ETTLocationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTLocationObserver.m; sourceTree = "<group>"; };
-		11232FBE1E79E81E00E67D99 /* ETTVenuesRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVenuesRequester.h; sourceTree = "<group>"; };
-		11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVenuesRequester.m; sourceTree = "<group>"; };
-		11232FC31E79F47D00E67D99 /* ETTSettingsStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTSettingsStorage.h; sourceTree = "<group>"; };
-		11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTSettingsStorage.m; sourceTree = "<group>"; };
 		1128EE3E1E79D12300C14B4C /* ETTVenues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETTVenues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1128EE421E79D12300C14B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1128EE441E79D12300C14B4C /* ETTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTAppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +69,22 @@
 		70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ETTVenuesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AFE1B481FEE8B451818282 /* Pods-ETTVenuesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenuesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		98F7B2E454D7476E80778E1A /* libPods-ETTVenues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ETTVenues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E281AB1E7AA55800998B9B /* ETTPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhoto.h; sourceTree = "<group>"; };
+		C7E281AC1E7AA55800998B9B /* ETTPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhoto.m; sourceTree = "<group>"; };
+		C7E281AF1E7AAB0300998B9B /* ETTBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTBaseObject.h; sourceTree = "<group>"; };
+		C7E281B01E7AAB0300998B9B /* ETTBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTBaseObject.m; sourceTree = "<group>"; };
+		C7E281B31E7AAE6A00998B9B /* ETTVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVenue.h; sourceTree = "<group>"; };
+		C7E281B41E7AAE6A00998B9B /* ETTVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVenue.m; sourceTree = "<group>"; };
+		C7E281B81E7ABF2300998B9B /* ETTRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTRequester.h; sourceTree = "<group>"; };
+		C7E281B91E7ABF2300998B9B /* ETTRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTRequester.m; sourceTree = "<group>"; };
+		C7E281BE1E7AC8EE00998B9B /* NSError+Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Errors.h"; sourceTree = "<group>"; };
+		C7E281BF1E7AC8EE00998B9B /* NSError+Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Errors.m"; sourceTree = "<group>"; };
+		C7E281C31E7AECE400998B9B /* ETTPhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotosListViewController.h; sourceTree = "<group>"; };
+		C7E281C41E7AECE400998B9B /* ETTPhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotosListViewController.m; sourceTree = "<group>"; };
+		C7E281C61E7AEDB800998B9B /* ETTPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTPhotoCell.h; sourceTree = "<group>"; };
+		C7E281C71E7AEDB800998B9B /* ETTPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTPhotoCell.m; sourceTree = "<group>"; };
+		C7E281C91E7AFBE900998B9B /* UIImageView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Loading.h"; sourceTree = "<group>"; };
+		C7E281CA1E7AFBE900998B9B /* UIImageView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Loading.m"; sourceTree = "<group>"; };
 		FA5CA63574A5ADA3070613DE /* Pods-ETTVenuesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETTVenuesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETTVenuesTests/Pods-ETTVenuesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,8 +119,7 @@
 		11232FA51E79D72D00E67D99 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				11232FA61E79D72D00E67D99 /* ETTPhotosListViewController.h */,
-				11232FA71E79D72D00E67D99 /* ETTPhotosListViewController.m */,
+				C7E281C11E7AECE400998B9B /* ETTPhotosListViewController */,
 				11232FA81E79D72D00E67D99 /* ETTSettingsViewController.h */,
 				11232FA91E79D72D00E67D99 /* ETTSettingsViewController.m */,
 				11232FAC1E79D78E00E67D99 /* ETTPhotoViewController.h */,
@@ -115,7 +131,7 @@
 		11232FAF1E79DE5A00E67D99 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				11232FBD1E79E81E00E67D99 /* ETTVenuesRequester */,
+				C7E281B71E7ABF2300998B9B /* ETTRequester */,
 				11232FB01E79DE5A00E67D99 /* ETTLocationManager */,
 			);
 			path = Managers;
@@ -132,20 +148,10 @@
 			path = ETTLocationManager;
 			sourceTree = "<group>";
 		};
-		11232FBD1E79E81E00E67D99 /* ETTVenuesRequester */ = {
-			isa = PBXGroup;
-			children = (
-				11232FBE1E79E81E00E67D99 /* ETTVenuesRequester.h */,
-				11232FBF1E79E81E00E67D99 /* ETTVenuesRequester.m */,
-			);
-			path = ETTVenuesRequester;
-			sourceTree = "<group>";
-		};
 		11232FC21E79F45F00E67D99 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				11232FC31E79F47D00E67D99 /* ETTSettingsStorage.h */,
-				11232FC41E79F47D00E67D99 /* ETTSettingsStorage.m */,
+				C7E281AA1E7AA51B00998B9B /* DataModels */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -173,9 +179,10 @@
 		1128EE401E79D12300C14B4C /* ETTVenues */ = {
 			isa = PBXGroup;
 			children = (
-				11232FA41E79D72D00E67D99 /* UI */,
-				11232FAF1E79DE5A00E67D99 /* Managers */,
+				C7E281BC1E7AC81E00998B9B /* Utilities */,
 				11232FC21E79F45F00E67D99 /* Data */,
+				11232FAF1E79DE5A00E67D99 /* Managers */,
+				11232FA41E79D72D00E67D99 /* UI */,
 				1128EE441E79D12300C14B4C /* ETTAppDelegate.h */,
 				1128EE451E79D12300C14B4C /* ETTAppDelegate.m */,
 				1128EE4D1E79D12300C14B4C /* Main.storyboard */,
@@ -211,6 +218,67 @@
 				70932A724BA0348309700C86 /* libPods-ETTVenuesTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7E281AA1E7AA51B00998B9B /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281AF1E7AAB0300998B9B /* ETTBaseObject.h */,
+				C7E281B01E7AAB0300998B9B /* ETTBaseObject.m */,
+				C7E281AB1E7AA55800998B9B /* ETTPhoto.h */,
+				C7E281AC1E7AA55800998B9B /* ETTPhoto.m */,
+				C7E281B31E7AAE6A00998B9B /* ETTVenue.h */,
+				C7E281B41E7AAE6A00998B9B /* ETTVenue.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		C7E281B71E7ABF2300998B9B /* ETTRequester */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281B81E7ABF2300998B9B /* ETTRequester.h */,
+				C7E281B91E7ABF2300998B9B /* ETTRequester.m */,
+			);
+			path = ETTRequester;
+			sourceTree = "<group>";
+		};
+		C7E281BC1E7AC81E00998B9B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281BD1E7AC81E00998B9B /* Categories */,
+			);
+			name = Utilities;
+			path = ETTVenues/Utilities;
+			sourceTree = SOURCE_ROOT;
+		};
+		C7E281BD1E7AC81E00998B9B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281BE1E7AC8EE00998B9B /* NSError+Errors.h */,
+				C7E281BF1E7AC8EE00998B9B /* NSError+Errors.m */,
+				C7E281C91E7AFBE900998B9B /* UIImageView+Loading.h */,
+				C7E281CA1E7AFBE900998B9B /* UIImageView+Loading.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C7E281C11E7AECE400998B9B /* ETTPhotosListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281C21E7AECE400998B9B /* ETTPhotoCell */,
+				C7E281C31E7AECE400998B9B /* ETTPhotosListViewController.h */,
+				C7E281C41E7AECE400998B9B /* ETTPhotosListViewController.m */,
+			);
+			path = ETTPhotosListViewController;
+			sourceTree = "<group>";
+		};
+		C7E281C21E7AECE400998B9B /* ETTPhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7E281C61E7AEDB800998B9B /* ETTPhotoCell.h */,
+				C7E281C71E7AEDB800998B9B /* ETTPhotoCell.m */,
+			);
+			path = ETTPhotoCell;
 			sourceTree = "<group>";
 		};
 		DD5F09BC39AAD55C165FAF25 /* Pods */ = {
@@ -426,15 +494,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E281AD1E7AA55800998B9B /* ETTPhoto.m in Sources */,
 				1128EE461E79D12300C14B4C /* ETTAppDelegate.m in Sources */,
-				11232FAA1E79D72D00E67D99 /* ETTPhotosListViewController.m in Sources */,
 				11232FB31E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
-				11232FC51E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */,
 				11232FAB1E79D72D00E67D99 /* ETTSettingsViewController.m in Sources */,
+				C7E281B51E7AAE6A00998B9B /* ETTVenue.m in Sources */,
+				C7E281C81E7AEDB800998B9B /* ETTPhotoCell.m in Sources */,
+				C7E281B11E7AAB0300998B9B /* ETTBaseObject.m in Sources */,
+				C7E281CB1E7AFBE900998B9B /* UIImageView+Loading.m in Sources */,
 				11232FAE1E79D78E00E67D99 /* ETTPhotoViewController.m in Sources */,
+				C7E281C01E7AC8EE00998B9B /* NSError+Errors.m in Sources */,
 				11232FBC1E79E7DF00E67D99 /* ETTLocationObserver.m in Sources */,
 				1128EE431E79D12300C14B4C /* main.m in Sources */,
-				11232FC01E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */,
+				C7E281BA1E7ABF2300998B9B /* ETTRequester.m in Sources */,
+				C7E281C51E7AECE400998B9B /* ETTPhotosListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +515,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E281AE1E7AA55800998B9B /* ETTPhoto.m in Sources */,
+				C7E281B21E7AAB0300998B9B /* ETTBaseObject.m in Sources */,
 				11232FB41E79DE7E00E67D99 /* ETTLocationManager.m in Sources */,
+				C7E281B61E7AAE6A00998B9B /* ETTVenue.m in Sources */,
 				1128EE5F1E79D12300C14B4C /* ETTVenuesTests.m in Sources */,
-				11232FC61E79F47D00E67D99 /* ETTSettingsStorage.m in Sources */,
-				11232FC11E79E81E00E67D99 /* ETTVenuesRequester.m in Sources */,
+				C7E281BB1E7ABF2300998B9B /* ETTRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,10 +649,12 @@
 			baseConfigurationReference = 4DCFEBAE257F7403FDF4BB11 /* Pods-ETTVenues.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				INFOPLIST_FILE = ETTVenues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -586,10 +663,12 @@
 			baseConfigurationReference = 678B47511DDF3D47D5B3FE7C /* Pods-ETTVenues.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				INFOPLIST_FILE = ETTVenues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.estimote.ETTVenues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

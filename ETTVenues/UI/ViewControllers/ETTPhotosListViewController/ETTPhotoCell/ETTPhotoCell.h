@@ -1,8 +1,8 @@
 //
-//  ETTPhotoViewController.h
+//  ETTPhotoCell.h
 //  ETTVenues
 //
-//  Created by Alexander Snegursky on 3/15/17.
+//  Created by Alexander Snigurskyi on 2017-03-16.
 //  Copyright © 2017 Alexander Snegursky. All rights reserved.
 //
 
@@ -13,7 +13,7 @@
 @class ETTPhoto;
 
 
-@interface ETTPhotoViewController : UIViewController
+@interface ETTPhotoCell : UICollectionViewCell
 
 @property (nonatomic, weak) ETTPhoto *photo;
 
