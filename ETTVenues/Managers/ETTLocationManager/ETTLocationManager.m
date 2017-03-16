@@ -37,7 +37,7 @@ static const float kDefaultDistanceFilter = 200.0f;
 
 
 - (void)setDistanceFilter:(CLLocationDistance)distanceFilter {
-    _locationManager.distanceFilter = distanceFilter > 0 ?: kCLDistanceFilterNone;
+    _locationManager.distanceFilter = distanceFilter > 0 ? distanceFilter : kCLDistanceFilterNone;
 }
 
 
