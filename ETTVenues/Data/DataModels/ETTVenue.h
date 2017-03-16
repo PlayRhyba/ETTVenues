@@ -12,7 +12,7 @@
 
 @interface ETTVenue : ETTBaseObject
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong, readonly) NSString *name;
 
 + (NSArray *)venuesWithDictionary:(NSDictionary *)dictionary;
 

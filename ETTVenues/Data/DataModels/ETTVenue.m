@@ -10,6 +10,13 @@
 #import "ETTVenue.h"
 
 
+@interface ETTVenue ()
+
+@property (nonatomic, strong, readwrite) NSString *name;
+
+@end
+
+
 @implementation ETTVenue
 
 

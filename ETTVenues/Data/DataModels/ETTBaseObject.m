@@ -10,6 +10,13 @@
 #import "ETTBaseObject.h"
 
 
+@interface ETTBaseObject ()
+
+@property (nonatomic, strong, readwrite) NSString *objectID;
+
+@end
+
+
 @implementation ETTBaseObject
 
 

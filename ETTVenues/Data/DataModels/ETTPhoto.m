@@ -15,8 +15,8 @@ static NSString *const kPhotoSize = @"cap500";
 
 @interface ETTPhoto ()
 
-@property (nonatomic, strong) NSString *prefix;
-@property (nonatomic, strong) NSString *suffix;
+@property (nonatomic, strong, readwrite) NSString *prefix;
+@property (nonatomic, strong, readwrite) NSString *suffix;
 
 @end
 

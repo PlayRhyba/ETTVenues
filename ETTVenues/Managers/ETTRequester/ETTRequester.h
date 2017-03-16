@@ -11,6 +11,9 @@
 #import <CoreLocation/CLLocation.h>
 
 
+extern const NSUInteger ETTRequesterMaxPhotosAmount;
+
+
 @class ETTPhoto;
 
 

@@ -15,6 +15,8 @@
 
 @interface ETTPhoto : ETTBaseObject
 
+@property (nonatomic, strong, readonly) NSString *prefix;
+@property (nonatomic, strong, readonly) NSString *suffix;
 @property (nonatomic, strong) ETTVenue *venue;
 
 + (NSArray *)photosWithDictionary:(NSDictionary *)dictionary;

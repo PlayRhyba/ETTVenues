@@ -19,8 +19,8 @@ static NSString * const kClientID = @"LOCC0VDDYUO4YYZTBDAWR3ASJOLOG4BYEIUQUYK4RZ
 static NSString * const kClientSecret = @"HSK400P2UBYM2G30MAMJGOWC3WI51PXRVMKBNN2DK4RN3YFI";
 static NSString * const kVersionDate = @"20170316";
 
+const NSUInteger ETTRequesterMaxPhotosAmount = 100;
 static const NSUInteger kVenuesLimit = 50;
-static const NSUInteger kMaxPhotosAmount = 100;
 
 
 @interface ETTRequester ()
@@ -81,7 +81,7 @@ static const NSUInteger kMaxPhotosAmount = 100;
                             }
                             else {
                                 for (ETTPhoto *photo in photos) {
-                                    if (resultPhotos.count >= kMaxPhotosAmount) {
+                                    if (resultPhotos.count >= ETTRequesterMaxPhotosAmount) {
                                         *stop = YES;
                                         break;
                                     }
@@ -154,7 +154,7 @@ static const NSUInteger kMaxPhotosAmount = 100;
 - (void)photosWithVenueID:(NSString *)venueID
                completion:(void(^)(NSArray<ETTPhoto *> *photos, NSError *error))completion {
     NSMutableDictionary *parameters = [self parameters];
-    [parameters addEntriesFromDictionary:@{@"limit": @(kMaxPhotosAmount)}];
+    [parameters addEntriesFromDictionary:@{@"limit": @(ETTRequesterMaxPhotosAmount)}];
     
     [_sessionManager GET:[NSString stringWithFormat:@"v2/venues/%@/photos", venueID]
               parameters:parameters

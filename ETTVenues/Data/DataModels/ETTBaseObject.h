@@ -12,7 +12,7 @@
 
 @interface ETTBaseObject : NSObject
 
-@property (nonatomic, copy) NSString *objectID;
+@property (nonatomic, strong, readonly) NSString *objectID;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
