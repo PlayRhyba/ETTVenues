@@ -27,7 +27,7 @@
 
 - (void)setPhoto:(ETTPhoto *)photo {
     _photo = photo;
-    [_imageView loadImageWithURL:[_photo url]];
+    [_imageView loadImageWithURL:[_photo previewURLWithSize:_imageView.frame.size]];
 }
 
 @end

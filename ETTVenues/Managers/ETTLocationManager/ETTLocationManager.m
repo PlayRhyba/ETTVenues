@@ -95,6 +95,11 @@ static const float kDefaultDistanceFilter = 200.0f;
 }
 
 
+- (NSUInteger)observationBlocksCount {
+    return self.observers.count;
+}
+
+
 //MARK: Lifecycle
 
 

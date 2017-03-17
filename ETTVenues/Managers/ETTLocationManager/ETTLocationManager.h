@@ -26,5 +26,6 @@ typedef void(^ETTLocationManagerObservationBlock)(CLLocation *location, NSError 
                       queue:(dispatch_queue_t)queue;
 
 - (void)removeObservationBlockWithIdentifier:(NSString *)identifier;
+- (NSUInteger)observationBlocksCount;
 
 @end

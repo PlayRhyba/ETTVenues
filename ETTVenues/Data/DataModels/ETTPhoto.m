@@ -10,13 +10,12 @@
 #import "ETTPhoto.h"
 
 
-static NSString *const kPhotoSize = @"cap500";
-
-
 @interface ETTPhoto ()
 
 @property (nonatomic, strong, readwrite) NSString *prefix;
 @property (nonatomic, strong, readwrite) NSString *suffix;
+
+- (NSURL *)urlWithPhotoSize:(NSString *)size;
 
 @end
 
@@ -55,9 +54,23 @@ static NSString *const kPhotoSize = @"cap500";
 }
 
 
-- (NSURL *)url {
+- (NSURL *)previewURLWithSize:(CGSize)size {
+    int cap = (int)MAX(size.width, size.height) * 2;
+    return [self urlWithPhotoSize:[NSString stringWithFormat:@"cap%d", cap]];
+}
+
+
+- (NSURL *)originalURL {
+    return [self urlWithPhotoSize:@"original"];
+}
+
+
+//MARK: Internal Logic
+
+
+- (NSURL *)urlWithPhotoSize:(NSString *)size {
     return [[[NSURL URLWithString:_prefix]
-             URLByAppendingPathComponent:kPhotoSize]
+             URLByAppendingPathComponent:size]
             URLByAppendingPathComponent:_suffix];
 }
 

@@ -11,10 +11,11 @@
 #import "ETTVenue.h"
 #import "ETTPhoto.h"
 #import "ETTRequester.h"
+#import "ETTLocationManager.h"
 #import <CoreLocation/CLLocation.h>
 
 
-static const NSTimeInterval kTimeout = 10.0;
+static const NSTimeInterval kTimeout = 20.0;
 
 
 @interface ETTVenuesTests : XCTestCase
@@ -39,7 +40,8 @@ static const NSTimeInterval kTimeout = 10.0;
     XCTAssertEqualObjects(photo.objectID, @"58c1a27f7b43b418712a98ed", @"ETTPhoto initialization test failed.");
     XCTAssertEqualObjects(photo.prefix, @"https://igx.4sqi.net/img/general/", @"ETTPhoto initialization test failed.");
     XCTAssertEqualObjects(photo.suffix, @"/1322106_h4X6cYGloL7t0eirbyNlt_f87bs4XaWhFOhMF0Ib7qs.jpg", @"ETTPhoto initialization test failed.");
-    XCTAssertNotNil([photo url], @"ETTPhoto URL building test failed.");
+    XCTAssertNotNil([photo previewURLWithSize:CGSizeMake(50.0, 50.0)], @"ETTPhoto \"preview\" URL building test failed.");
+    XCTAssertNotNil([photo originalURL], @"ETTPhoto \"original\" URL building test failed.");
     
     NSDictionary *m_dictionary = @{@"response": @{@"photos": @{@"items": @[
                                                                        i_dictionary,
@@ -86,10 +88,50 @@ static const NSTimeInterval kTimeout = 10.0;
 
 
 - (void)testLocationManager {
+    ETTLocationManager *locationManager = [ETTLocationManager sharedInstance];
     
+    [locationManager addObservationBlock:^(CLLocation *location, NSError *error) {}
+                          withIdentifier:@"first"
+                                   queue:dispatch_get_main_queue()];
     
-    //TODO: Test LocationManager
+    [locationManager addObservationBlock:^(CLLocation *location, NSError *error) {}
+                          withIdentifier:@"first"
+                                   queue:dispatch_get_main_queue()];
     
+    [locationManager addObservationBlock:^(CLLocation *location, NSError *error) {}
+                          withIdentifier:@"second"
+                                   queue:dispatch_get_main_queue()];
+    
+    XCTAssert(locationManager.observationBlocksCount == 2, @"LocationManager test failed.");
+    
+    [locationManager removeObservationBlockWithIdentifier:@"first"];
+    [locationManager removeObservationBlockWithIdentifier:@"second"];
+    XCTAssert(locationManager.observationBlocksCount == 0, @"LocationManager test failed.");
+    
+    XCTestExpectation *locationObserverExpectation1 = [self expectationWithDescription:@"Location observer expectation 1"];
+    XCTestExpectation *locationObserverExpectation2 = [self expectationWithDescription:@"Location observer expectation 2"];
+    
+    ETTLocationManagerObservationBlock test = ^(CLLocation *location, NSError *error) {
+        XCTAssertNil(error, @"LocationManager test failed. Error: %@", error.localizedDescription);
+        XCTAssertNotNil(location, @"LocationManager test failed. Location is unreachable");
+    };
+    
+    [locationManager addObservationBlock:^(CLLocation *location, NSError *error) {
+        test(location, error);
+        [locationObserverExpectation1 fulfill];
+    } withIdentifier:@"first" queue:dispatch_get_main_queue()];
+    
+    [locationManager addObservationBlock:^(CLLocation *location, NSError *error) {
+        test(location, error);
+        [locationObserverExpectation2 fulfill];
+    } withIdentifier:@"second" queue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)];
+    
+    [locationManager startObserving];
+    
+    [self waitForExpectationsWithTimeout:kTimeout handler:^(NSError * _Nullable error) {
+        [locationManager stopObserving];
+        XCTAssertNil(error, @"LocationManager test failed. Error: %@", error.localizedDescription);
+    }];
 }
 
 @end

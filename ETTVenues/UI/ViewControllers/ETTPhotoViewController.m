@@ -29,7 +29,7 @@
     [super viewWillAppear:animated];
     
     self.navigationItem.title = _photo.venue.name;
-    [_imageView loadImageWithURL:[_photo url]];
+    [_imageView loadImageWithURL:[_photo originalURL]];
 }
 
 @end

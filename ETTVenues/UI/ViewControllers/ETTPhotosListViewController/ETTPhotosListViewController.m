@@ -47,6 +47,9 @@
                 [weakSelf.collectionView reloadData];
             }];
         }
+        else if (error) {
+            NSLog(@"LOCATION UPDATING ERROR: %@", error.localizedDescription);
+        }
     } withIdentifier:NSStringFromClass([self class]) queue:dispatch_get_main_queue()];
 }
 

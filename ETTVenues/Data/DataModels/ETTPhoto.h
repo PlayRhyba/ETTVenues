@@ -8,6 +8,7 @@
 
 
 #import "ETTBaseObject.h"
+#import <UIKit/UIKit.h>
 
 
 @class ETTVenue;
@@ -20,6 +21,7 @@
 @property (nonatomic, strong) ETTVenue *venue;
 
 + (NSArray *)photosWithDictionary:(NSDictionary *)dictionary;
-- (NSURL *)url;
+- (NSURL *)previewURLWithSize:(CGSize)size;
+- (NSURL *)originalURL;
 
 @end
